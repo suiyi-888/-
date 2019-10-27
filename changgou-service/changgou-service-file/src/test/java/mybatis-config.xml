@@ -1,0 +1,9 @@
+<!-- mybatis-config.xml -->
+<plugins>
+    <plugin interceptor="com.xuxd.mybatis.plugin.demo.CustomPlugin1">
+    </plugin>
+    <plugin interceptor="com.xuxd.mybatis.plugin.demo.CustomPlugin2">
+    </plugin>
+    <plugin interceptor="com.xuxd.mybatis.plugin.demo.CustomPlugin3">
+    </plugin>
+</plugins>
